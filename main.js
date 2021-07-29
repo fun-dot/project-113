@@ -15,6 +15,9 @@ rect(86, 390, 475, 55);
 rect(30, 90, 55, 300);
 rect(560, 90, 55, 300);
 }
+function draw(){
+    image(video,80, 80, 480, 320);
+}
 function take_snapshot(){
 save('student_name.png');
 }
